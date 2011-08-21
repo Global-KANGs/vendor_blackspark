@@ -16,7 +16,7 @@
 
 # This is the top-level configuration for a US-configured AOSP build
 
-$(call inherit-product, vendor/aosp/products/aosp_core.mk)
+$(call inherit-product, vendor/blackspark/products/aosp_core.mk)
 
 PRODUCT_NAME := aosp_us
 PRODUCT_BRAND := aosp
@@ -28,4 +28,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
         ro.ril.hsxpa=1 \
         ro.ril.gprsclass=10
 
-PRODUCT_COPY_FILES += vendor/aosp/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += vendor/blackspark/etc/apns-conf.xml:system/etc/apns-conf.xml

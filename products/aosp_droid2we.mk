@@ -17,7 +17,7 @@
 # This is the config file for an actual configuration
 # AOSP on Droid2 Global
 
-$(call inherit-product, vendor/aosp/products/aosp_us.mk)
+$(call inherit-product, vendor/blackspark/products/aosp_us.mk)
 
 # How this product is called in the build system
 PRODUCT_NAME := aosp_droid2we
