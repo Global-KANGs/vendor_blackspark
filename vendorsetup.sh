@@ -30,4 +30,4 @@ add_lunch_combo aosp_sapphire_us-userdebug
 add_lunch_combo aosp_sapphire_eu-userdebug
 add_lunch_combo aosp_sapphire_us-eng
 add_lunch_combo aosp_sapphire_eu-eng
-
+add_lunch_combo aosp_droid2we-eng
