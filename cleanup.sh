@@ -19,3 +19,5 @@ sed -e 's|LOCAL_MODULE *:=|LOCAL_MODULE_TAGS := optional\nLOCAL_MODULE :=|' -i h
 sed -e 's|LOCAL_MODULE_TAGS := user|LOCAL_MODULE_TAGS := optional|' -i system/wlan/ti/wilink_6_1/config/Android.mk
 sed -e 's|LOCAL_MODULE *:=|LOCAL_MODULE_TAGS := optional\nLOCAL_MODULE :=|' -i system/wlan/ti/wilink_6_1/CUDK/configurationutility/Android.mk
 sed -e 's|LOCAL_MODULE *:=|LOCAL_MODULE_TAGS := optional\nLOCAL_MODULE :=|' -i system/wlan/ti/wilink_6_1/CUDK/tiwlan_loader/Android.mk
+
+sed -e 's|LOCAL_SYSTEM_SHARED_LIBRARIES *:=|LOCAL_LDLIBS := -llog\nLOCAL_SYSTEM_SHARED_LIBRARIES :=|' -i external/dnsmasq/src/Android.mk
